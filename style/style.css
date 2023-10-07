@@ -1,0 +1,132 @@
+*::after,
+::before {
+    box-sizing: border-box;
+}
+body {
+    --g-circle: #00BF63;
+    --g-burron: #00BF63;
+    font-family: 'Inter', sans-serif;
+}
+
+/*---------HEADER-------*/
+header {
+    margin-bottom: 18%;
+}
+figure {
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: -3rem;
+}
+figure>img {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.container>div:nth-child(1) {
+    width: 60%;
+
+}
+.container>div:nth-child(2) {
+    width: 40%;
+}
+.container2 {
+    display: flex;
+    flex-direction: column;
+}
+#borcell{
+   
+    margin-bottom: 2rem;
+}
+#borcell>p {
+    display: inline;
+    background-color: black;
+    color: white;
+    width: auto;
+    padding: 0.3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    border-radius: 1rem;
+}
+.container2>section>h1 {
+    width: auto;
+    font-size: 4.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.container2>section:nth-child(3) {
+    font-size: 1.7rem;
+    letter-spacing: 1px;
+    margin-top: 1rem;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--g-circle);
+    width: 14rem;
+    height: 14rem;
+    color: wheat;
+    border-radius: 50%;
+    margin-top: 2.5rem;
+}
+.container3>h1{
+    font-size: 4rem;
+}
+.container3>h2{
+    font-size: 3rem;
+}
+/*-----------MAIN--------*/
+.containerSillas {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display:flex;   
+}
+.sillas {
+    width:30%;
+    margin: 3%;
+}
+.sillas>img {
+    width: 100%;
+}
+.sillas>h1 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.sillas>p {
+    display: inline;
+    text-decoration: line-through;
+}
+.sillas>h2 {
+    display: inline;
+    margin-left: 15px;
+}
+footer {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 15vh;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+footer>div>p {
+    display: inline;
+    background-color: var(--g-burron);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 6rem;
+    border-radius: 50vh;
+    color: white;
+}
